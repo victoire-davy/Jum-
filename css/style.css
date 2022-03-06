@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&display=swap');
+
+@import url("components/avatar.css");
+
+@import url('components/container.css');
+
+@import url('components/button.css');
+
+@import url('components/banner.css');
+
+@import url('components/card.css');
+
+@import url('components/cards.css');
+
+body {
+font-family: 'Hubballi', cursive;
+font-size: 150px;
+margin: 300px 100px;
+}
+
+h1, h2, h3 {
+	font-family: 'Hubballi', cursive;
+	font-weight: bold;
+}
+
+a {
+	text-decoration: none;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
